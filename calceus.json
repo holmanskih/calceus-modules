@@ -1,22 +1,43 @@
 [
     {
-        "key": "react",
-        "path": "templates/webpack.react.config.js",
+        "key": "default",
+        "path": "templates/webpack.template.config.js",
         "name": "webpack.config.js",
-        "modules": [
-            "path",
+        "dependencies": [
+            "@babel/polyfill",
+            "lodash",
+            "normalize.css"
+        ],
+        "devDependencies": [
+            "@babel/core",
+            "@babel/plugin-proposal-class-properties",
+            "@babel/preset-env",
+            "@babel/preset-typescript",
+            "babel-eslint",
+            "babel-loader",
+            "clean-webpack-plugin",
+            "copy-webpack-plugin",
+            "cross-env",
+            "css-loader",
+            "csv-loader",
+            "eslint",
+            "eslint-loader",
+            "file-loader",
+            "html-webpack-plugin",
+            "less",
+            "less-loader",
+            "mini-css-extract-plugin",
+            "node-sass",
+            "optimize-css-assets-webpack-plugin",
+            "papaparse",
+            "sass-loader",
+            "style-loader",
+            "terser-webpack-plugin",
             "webpack",
-            "webpack-merge",
-            "html-webpack-plugin"
-        ]
-    },
-    {
-        "key": "vue",
-        "path": "templates/webpack.vue.config.js",
-        "name": "webpack.config.js",
-        "modules": [
-            "webpack",
-            "path"
+            "webpack-bundle-analyzer",
+            "webpack-cli",
+            "webpack-dev-server",
+            "xml-loader"
         ]
     }
 ]

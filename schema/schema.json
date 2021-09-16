@@ -2,10 +2,6 @@
     "files": [
         {
             "path": "webpack.config.js",
-            "type": "template"
-        },
-        {
-            "path": "package.json",
             "type": "file"
         },
         {
@@ -13,7 +9,15 @@
             "type": "file"
         },
         {
+            "path": "package.json",
+            "type": "file"
+        },
+        {
             "path": ".gitignore",
+            "type": "file"
+        },
+        {
+            "path": ".eslintrc",
             "type": "file"
         },
         {
@@ -33,11 +37,15 @@
             "type": "file"
         },
         {
-            "path": "/src/styles/fonts.scss",
+            "path": "/src/styles/index.scss",
             "type": "file"
         },
         {
             "path": "/src/styles/index.scss",
+            "type": "file"
+        },
+        {
+            "path": "/src/styles/fonts.scss",
             "type": "file"
         },
         {
